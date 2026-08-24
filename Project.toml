@@ -1,0 +1,16 @@
+name = "KernelDevices"
+uuid = "04bc24d4-8392-4e6f-9623-9d5d7b3f6371"
+version = "0.1.0"
+authors = ["chenyubao <chenyu.bao@outlook.com>"]
+
+[deps]
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+
+[compat]
+KernelAbstractions = ">=0.9.42"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
